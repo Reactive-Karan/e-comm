@@ -4,12 +4,13 @@
   "description": "Fullstack mern site development for ecom ",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index.js",
+    "start": "nodemon index.js",
     "test": "npm run test"
   },
   "author": "Karan Mishra",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^6.10.0",
     "nodemon": "^2.0.20"
